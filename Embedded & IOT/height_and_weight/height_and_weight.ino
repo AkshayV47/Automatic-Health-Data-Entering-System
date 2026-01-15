@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3X7o-fqIf"
+#define BLYNK_TEMPLATE_ID "*************************"
 #define BLYNK_TEMPLATE_NAME "IoT Enabled Patient Health Status System"
-#define BLYNK_AUTH_TOKEN "Zn6HbKM5yE1jV9gySmtBwABWVJToYvwH"
+#define BLYNK_AUTH_TOKEN "*********************"
 #include <NewPing.h>
 #include <HX711.h>
 #include <ESP8266WiFi.h>
@@ -17,8 +17,8 @@
 const float SENSOR_HEIGHT_FT = 8.0; // Height of sensor above ground in feet (adjust as needed)
 const float CM_TO_FEET = 0.0328084; // 1 cm = 0.0328084 feet
 
-const char* ssid ="OPPOReno8T5G";
-const char* password ="OPPO8T5G";
+const char* ssid ="*********************";
+const char* password ="**************";
 // Constants
 HX711 scale; // Create HX711 object without parameters
 NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_SENSOR_DISTANCE_CM);
