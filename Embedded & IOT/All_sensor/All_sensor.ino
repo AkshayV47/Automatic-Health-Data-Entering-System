@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3X7o-fqIf"
+#define BLYNK_TEMPLATE_ID "***********"
 #define BLYNK_TEMPLATE_NAME "IoT Enabled Patient Health Status System"
-#define BLYNK_AUTH_TOKEN "Zn6HbKM5yE1jV9gySmtBwABWVJToYvwH"
+#define BLYNK_AUTH_TOKEN "Zn6HbKM5yE1jV9gySmtBwAB"
 
 #define DT_PIN D2
 #define SCK_PIN D1
@@ -17,8 +17,8 @@
 #include <BlynkSimpleEsp8266.h> 
 #include <SoftwareSerial.h>
 
-const char* ssid ="OPPOReno8T5G";
-const char* password ="OPPO8T5G";
+const char* ssid ="***********";
+const char* password ="*******";
 
 const int PulseWire = A0;  
 int Threshold = 550;
@@ -72,3 +72,4 @@ void loop() {
   Blynk.run();
   timer.run();  // Run BlynkTimer events
 }
+
