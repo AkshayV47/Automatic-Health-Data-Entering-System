@@ -1,5 +1,5 @@
-#define BOT_TOKEN "8418680208:AAEcUTMkulNth3lVKTMKmsZhXMVVv_jk7Mg"
-#define CHAT_ID "6363416940"
+#define BOT_TOKEN "************************"
+#define CHAT_ID "**************"
 
 // #define BOT_TOKEN "8076611179:AAE-O5v-hINACR7uRqXLzE_QICMh0m1I6fA"
 #include <PulseSensorPlayground.h>
@@ -23,10 +23,8 @@ const int PulseWire = A0;
 int Threshold = 550;
 
 // WiFi credentials
-// const char* ssid = "OPPOReno8T5G";
-// const char* password = "OPPO8T5G";
-const char* ssid = "Balaji";
-const char* password = "balaji123";
+const char* ssid = "*****************";
+const char* password = "********";
 
 // Global objects
 WiFiClientSecure secured_client;
